@@ -1,0 +1,38 @@
+body {
+  padding-bottom: 50px;
+}
+.main__page {
+  text-align: center;
+}
+.main .image__index {
+  text-align: center;
+}
+
+.index__img {
+  width: auto;
+  height: auto;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.nav {
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__icon i {
+  color: black;
+}
+
+.nav__icon {
+  font-size: 30px;
+
+  padding: 20px;
+}
