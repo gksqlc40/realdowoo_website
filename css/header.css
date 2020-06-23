@@ -3,7 +3,7 @@
   text-align: center;
   padding-top: 90px;
   font-family: "Nanum Myeongjo", serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .header .play__icon {
@@ -13,7 +13,7 @@
 }
 
 @keyframes GDinHeader {
-  from: {
+  from {
     color: black;
   }
 

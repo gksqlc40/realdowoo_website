@@ -1,0 +1,11 @@
+.lesson__imgs {
+  display: flex;
+}
+
+.lesson__img {
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  max-height: 600px;
+  max-width: 600px;
+}

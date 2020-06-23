@@ -4,18 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/b612619fb5.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body class="music__body">
     <header class="header">
       <div class="top__message">
         <h1>도우진</h1>
@@ -50,36 +55,34 @@
 
     <main>
       <div class="album__music">
-        <img src="images/music_4.jpg" />
+        <img src="images/music_4.jpg" class="music__img" />
         <span class="album__Description">
           2020 - 06 - 25 싱글 '네 안에 검은 바다가 오면'
         </span>
       </div>
       <div class="album__music">
-        <img src="images/music_3.jpg" />
+        <img src="images/music_3.jpg" class="music__img" />
         <span class="album__Description">
           2019 - 4 - 26 영신X도우진 싱글 '같이 걸을까'
         </span>
       </div>
       <div class="album__music">
-        <img src="images/music_2.jpg" />
+        <img src="images/music_2.jpg" class="music__img" />
         <span class="album__Description">
           2019 - 3 - 22 이준식X도우진 EP '야곱의 새벽'</span
         >
       </div>
       <div class="album__music">
-        <img src="images/music_1.jpg" />
+        <img src="images/music_1.jpg" class="music__img" />
         <span class="album__Description">
           2019 - 2 - 18 도우진 싱글 'Pluto'
         </span>
       </div>
-      <div class="youtube__music">
-        <a
-          href="https://www.youtube.com/channel/UCgjrsZ6Pvp7CuwTB5guc5zA"
-          target="_blank"
-        >
-          보는음악_플리
-        </a>
+      <div
+        class="youtube__music"
+        onClick="window.open('http://www.youtube.com/channel/UCgjrsZ6Pvp7CuwTB5guc5zA/','_blank');"
+      >
+        보는음악_플리
       </div>
     </main>
   </body>

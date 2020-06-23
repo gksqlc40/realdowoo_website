@@ -1,3 +1,16 @@
 @import "resetcss.css";
 @import "index.css";
 @import "header.css";
+@import "music.css";
+@import "session.css";
+@import "lesson.css";
+@import "links.css";
+@import "contact.css";
+
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  padding-bottom: 200px;
+}

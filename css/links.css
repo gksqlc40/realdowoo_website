@@ -1,0 +1,103 @@
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.links__img {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  max-width: 700px;
+  max-height: 700px;
+}
+
+.links__music-list {
+  display: flex;
+}
+
+.sns {
+  display: block;
+}
+.sns__list {
+  display: flex;
+  justify-content: center;
+}
+
+.list__icon,
+.sns__class {
+  font-size: 30px;
+  padding: 20px;
+}
+
+@keyframes GDyoutube {
+  from {
+    color: black;
+  }
+
+  to {
+    color: red;
+  }
+}
+
+@keyframes GDmelon {
+  from {
+    color: black;
+  }
+
+  to {
+    color: green;
+  }
+}
+@keyframes GDgenie {
+  from {
+    color: black;
+  }
+
+  to {
+    color: rgb(62, 175, 219);
+  }
+}
+@keyframes GDinstagram {
+  from {
+    color: black;
+  }
+
+  to {
+    color: rgb(185, 47, 112);
+  }
+}
+@keyframes GDfacebook {
+  from {
+    color: black;
+  }
+
+  to {
+    color: #39569a;
+  }
+}
+
+#youtube :hover {
+  animation: GDyoutube 0.3s ease-out forwards;
+}
+
+#melon :hover {
+  animation: GDmelon 0.3s ease-out forwards;
+}
+#genie :hover {
+  animation: GDgenie 0.3s ease-out forwards;
+}
+#instagram :hover {
+  animation: GDinstagram 0.3s ease-out forwards;
+}
+#facebook :hover {
+  animation: GDfacebook 0.3s ease-out forwards;
+}
+
+.list__icon {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 500;
+}

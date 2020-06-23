@@ -1,0 +1,46 @@
+.album__music {
+  margin: 30px;
+}
+
+.music__img {
+  padding: 20px;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.album__Description {
+  margin-left: 20px;
+}
+
+.youtube__music {
+  display: block;
+  padding: 30px 135px;
+  margin: 0px auto;
+  margin-left: 50px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  max-width: 130px;
+  max-height: 130px;
+  background-color: #87a648;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.album__music,
+.youtube__music {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+}
+
+.link__youtube {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
