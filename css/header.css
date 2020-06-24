@@ -40,11 +40,14 @@
 }
 
 @media (max-width: 414px) {
-  .play__icon {
+  .header .play__icon {
     display: flex;
-    margin: 0 auto;
+    margin: 0;
     justify-content: flex-end;
+    padding-top: 10px;
+    padding-right: 10px;
   }
+
   .index__music {
     width: 30%;
   }
