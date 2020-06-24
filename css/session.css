@@ -3,8 +3,8 @@
   display: block;
   width: auto;
   height: auto;
-  max-width: 700px;
-  max-height: 700px;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 .lesson__article {
@@ -24,4 +24,19 @@
   font-family: "Nanum Myeongjo", serif;
   font-weight: 400;
   font-size: 30px;
+}
+@media (max-width: 375px) {
+  .session__img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .lesson__article {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .session__article,
+  .session__article__header {
+    padding: 10px 0px;
+  }
 }

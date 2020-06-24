@@ -26,3 +26,11 @@
   font-family: "Nanum Myeongjo", serif;
   font-weight: 400;
 }
+
+@media (max-width: 375px) {
+  .mail__address {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+  }
+}

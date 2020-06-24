@@ -24,13 +24,49 @@
 
 .menu__bar {
   font-family: "Nanum Myeongjo", serif;
-  display: flex;
-  justify-content: space-around;
+
   margin: 0px 50px;
   margin-top: 50px;
   margin-bottom: 120px;
 }
 
+.choose__menu__bar {
+  display: flex;
+  justify-content: space-around;
+}
+
 .menu__bar :hover {
   animation: GDinHeader 0.5s ease-out forwards;
+}
+
+@media (max-width: 375px) {
+  .play__icon {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-end;
+  }
+  .index__music {
+    width: 30%;
+  }
+  .menu__bar {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .choose__menu {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #menu__2 {
+    padding-left: 5px;
+  }
+  #menu__4 {
+    padding-right: 5px;
+  }
+  #menu__5 {
+    padding-right: 3px;
+  }
 }

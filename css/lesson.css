@@ -9,3 +9,10 @@
   max-height: 600px;
   max-width: 600px;
 }
+
+@media (max-width: 375px) {
+  .lesson__img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}

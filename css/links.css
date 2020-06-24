@@ -11,8 +11,8 @@
   margin: 0 auto;
   width: auto;
   height: auto;
-  max-width: 700px;
-  max-height: 700px;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 .links__music-list {
@@ -100,4 +100,27 @@
 .list__icon {
   font-family: "Nanum Myeongjo", serif;
   font-weight: 500;
+}
+
+@media (max-width: 375px) {
+  .links {
+    display: inline;
+  }
+  .links__img {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 350px;
+    max-height: 350px;
+  }
+  .links__music-list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .list__icon,
+  .sns__class {
+    padding: 20px 0;
+    font-size: 30px;
+    margin: 0 10px;
+  }
 }
