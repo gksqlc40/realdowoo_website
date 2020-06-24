@@ -27,7 +27,7 @@
   font-weight: 400;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .mail__address {
     text-align: center;
     font-size: 20px;

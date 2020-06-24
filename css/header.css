@@ -39,7 +39,7 @@
   animation: GDinHeader 0.5s ease-out forwards;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .play__icon {
     display: flex;
     margin: 0 auto;

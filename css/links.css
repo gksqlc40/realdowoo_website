@@ -102,7 +102,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .links {
     display: inline;
   }

@@ -25,7 +25,7 @@
   font-weight: 400;
   font-size: 30px;
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .session__img {
     max-width: 350px;
     max-height: 350px;
