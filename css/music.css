@@ -59,7 +59,7 @@
   .youtube__music {
     max-width: 200px;
     margin-left: -20px;
-
+    font-size: 16px;
     display: flex;
     justify-content: center;
   }
