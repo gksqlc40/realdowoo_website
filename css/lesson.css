@@ -9,6 +9,12 @@
   max-height: 600px;
   max-width: 600px;
 }
+.lesson__article {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 21px;
+}
 
 @media (max-width: 414px) {
   .lesson__img {
