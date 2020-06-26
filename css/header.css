@@ -33,6 +33,7 @@
 .choose__menu__bar {
   display: flex;
   justify-content: space-around;
+  font-size: 20px;
 }
 
 .menu__bar :hover {
